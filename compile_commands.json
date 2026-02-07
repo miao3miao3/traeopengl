@@ -1,0 +1,17 @@
+[
+    {
+        "directory": "C:\\miaomiao\\Dev\\traeopengl",
+        "command": "dmc -c -IC:\\tools\\dm\\stlport\\stlport -I.\\include glad.c",
+        "file": "glad.c"
+    },
+    {
+        "directory": "C:\\miaomiao\\Dev\\traeopengl",
+        "command": "copy .\\lib\\glfw3.dll .\\glfw3.dll",
+        "file": "glfw3.dll"
+    },
+    {
+        "directory": "C:\\miaomiao\\Dev\\traeopengl",
+        "command": "dmc -IC:\\tools\\dm\\stlport\\stlport -I.\\include main.cpp  glad.obj .\\lib\\glfw3.lib winmm.lib wsock32.lib ws2_32.lib",
+        "file": "main.cpp"
+    }
+]

@@ -1,0 +1,540 @@
+
+Publics by name		module
+_glfwCreateCursor                _glfwCreateCursor
+_glfwCreateStandardCursor        _glfwCreateStandardCursor
+_glfwCreateWindow                _glfwCreateWindow
+_glfwCreateWindowSurface         _glfwCreateWindowSurface
+_glfwDefaultWindowHints          _glfwDefaultWindowHints
+_glfwDestroyCursor               _glfwDestroyCursor
+_glfwDestroyWindow               _glfwDestroyWindow
+_glfwExtensionSupported          _glfwExtensionSupported
+_glfwFocusWindow                 _glfwFocusWindow
+_glfwGetClipboardString          _glfwGetClipboardString
+_glfwGetCurrentContext           _glfwGetCurrentContext
+_glfwGetCursorPos                _glfwGetCursorPos
+_glfwGetEGLContext               _glfwGetEGLContext
+_glfwGetEGLDisplay               _glfwGetEGLDisplay
+_glfwGetEGLSurface               _glfwGetEGLSurface
+_glfwGetError                    _glfwGetError
+_glfwGetFramebufferSize          _glfwGetFramebufferSize
+_glfwGetGamepadName              _glfwGetGamepadName
+_glfwGetGamepadState             _glfwGetGamepadState
+_glfwGetGammaRamp                _glfwGetGammaRamp
+_glfwGetInputMode                _glfwGetInputMode
+_glfwGetInstanceProcAddress      _glfwGetInstanceProcAddress
+_glfwGetJoystickAxes             _glfwGetJoystickAxes
+_glfwGetJoystickButtons          _glfwGetJoystickButtons
+_glfwGetJoystickGUID             _glfwGetJoystickGUID
+_glfwGetJoystickHats             _glfwGetJoystickHats
+_glfwGetJoystickName             _glfwGetJoystickName
+_glfwGetJoystickUserPointer      _glfwGetJoystickUserPointer
+_glfwGetKey                      _glfwGetKey
+_glfwGetKeyName                  _glfwGetKeyName
+_glfwGetKeyScancode              _glfwGetKeyScancode
+_glfwGetMonitorContentScale      _glfwGetMonitorContentScale
+_glfwGetMonitorName              _glfwGetMonitorName
+_glfwGetMonitorPhysicalSize      _glfwGetMonitorPhysicalSize
+_glfwGetMonitorPos               _glfwGetMonitorPos
+_glfwGetMonitors                 _glfwGetMonitors
+_glfwGetMonitorUserPointer       _glfwGetMonitorUserPointer
+_glfwGetMonitorWorkarea          _glfwGetMonitorWorkarea
+_glfwGetMouseButton              _glfwGetMouseButton
+_glfwGetOSMesaColorBuffer        _glfwGetOSMesaColorBuffer
+_glfwGetOSMesaContext            _glfwGetOSMesaContext
+_glfwGetOSMesaDepthBuffer        _glfwGetOSMesaDepthBuffer
+_glfwGetPhysicalDevicePresentationSupport _glfwGetPhysicalDevicePresentationSupport
+_glfwGetPlatform                 _glfwGetPlatform
+_glfwGetPrimaryMonitor           _glfwGetPrimaryMonitor
+_glfwGetProcAddress              _glfwGetProcAddress
+_glfwGetRequiredInstanceExtensions _glfwGetRequiredInstanceExtensions
+_glfwGetTime                     _glfwGetTime
+_glfwGetTimerFrequency           _glfwGetTimerFrequency
+_glfwGetTimerValue               _glfwGetTimerValue
+_glfwGetVersion                  _glfwGetVersion
+_glfwGetVersionString            _glfwGetVersionString
+_glfwGetVideoMode                _glfwGetVideoMode
+_glfwGetVideoModes               _glfwGetVideoModes
+_glfwGetWGLContext               _glfwGetWGLContext
+_glfwGetWin32Adapter             _glfwGetWin32Adapter
+_glfwGetWin32Monitor             _glfwGetWin32Monitor
+_glfwGetWin32Window              _glfwGetWin32Window
+_glfwGetWindowAttrib             _glfwGetWindowAttrib
+_glfwGetWindowContentScale       _glfwGetWindowContentScale
+_glfwGetWindowFrameSize          _glfwGetWindowFrameSize
+_glfwGetWindowMonitor            _glfwGetWindowMonitor
+_glfwGetWindowOpacity            _glfwGetWindowOpacity
+_glfwGetWindowPos                _glfwGetWindowPos
+_glfwGetWindowSize               _glfwGetWindowSize
+_glfwGetWindowTitle              _glfwGetWindowTitle
+_glfwGetWindowUserPointer        _glfwGetWindowUserPointer
+_glfwHideWindow                  _glfwHideWindow
+_glfwIconifyWindow               _glfwIconifyWindow
+_glfwInit                        _glfwInit
+_glfwInitAllocator               _glfwInitAllocator
+_glfwInitHint                    _glfwInitHint
+_glfwInitVulkanLoader            _glfwInitVulkanLoader
+_glfwJoystickIsGamepad           _glfwJoystickIsGamepad
+_glfwJoystickPresent             _glfwJoystickPresent
+_glfwMakeContextCurrent          _glfwMakeContextCurrent
+_glfwMaximizeWindow              _glfwMaximizeWindow
+_glfwPlatformSupported           _glfwPlatformSupported
+_glfwPollEvents                  _glfwPollEvents
+_glfwPostEmptyEvent              _glfwPostEmptyEvent
+_glfwRawMouseMotionSupported     _glfwRawMouseMotionSupported
+_glfwRequestWindowAttention      _glfwRequestWindowAttention
+_glfwRestoreWindow               _glfwRestoreWindow
+_glfwSetCharCallback             _glfwSetCharCallback
+_glfwSetCharModsCallback         _glfwSetCharModsCallback
+_glfwSetClipboardString          _glfwSetClipboardString
+_glfwSetCursor                   _glfwSetCursor
+_glfwSetCursorEnterCallback      _glfwSetCursorEnterCallback
+_glfwSetCursorPos                _glfwSetCursorPos
+_glfwSetCursorPosCallback        _glfwSetCursorPosCallback
+_glfwSetDropCallback             _glfwSetDropCallback
+_glfwSetErrorCallback            _glfwSetErrorCallback
+_glfwSetFramebufferSizeCallback  _glfwSetFramebufferSizeCallback
+_glfwSetGamma                    _glfwSetGamma
+_glfwSetGammaRamp                _glfwSetGammaRamp
+_glfwSetInputMode                _glfwSetInputMode
+_glfwSetJoystickCallback         _glfwSetJoystickCallback
+_glfwSetJoystickUserPointer      _glfwSetJoystickUserPointer
+_glfwSetKeyCallback              _glfwSetKeyCallback
+_glfwSetMonitorCallback          _glfwSetMonitorCallback
+_glfwSetMonitorUserPointer       _glfwSetMonitorUserPointer
+_glfwSetMouseButtonCallback      _glfwSetMouseButtonCallback
+_glfwSetScrollCallback           _glfwSetScrollCallback
+_glfwSetTime                     _glfwSetTime
+_glfwSetWindowAspectRatio        _glfwSetWindowAspectRatio
+_glfwSetWindowAttrib             _glfwSetWindowAttrib
+_glfwSetWindowCloseCallback      _glfwSetWindowCloseCallback
+_glfwSetWindowContentScaleCallback _glfwSetWindowContentScaleCallback
+_glfwSetWindowFocusCallback      _glfwSetWindowFocusCallback
+_glfwSetWindowIcon               _glfwSetWindowIcon
+_glfwSetWindowIconifyCallback    _glfwSetWindowIconifyCallback
+_glfwSetWindowMaximizeCallback   _glfwSetWindowMaximizeCallback
+_glfwSetWindowMonitor            _glfwSetWindowMonitor
+_glfwSetWindowOpacity            _glfwSetWindowOpacity
+_glfwSetWindowPos                _glfwSetWindowPos
+_glfwSetWindowPosCallback        _glfwSetWindowPosCallback
+_glfwSetWindowRefreshCallback    _glfwSetWindowRefreshCallback
+_glfwSetWindowShouldClose        _glfwSetWindowShouldClose
+_glfwSetWindowSize               _glfwSetWindowSize
+_glfwSetWindowSizeCallback       _glfwSetWindowSizeCallback
+_glfwSetWindowSizeLimits         _glfwSetWindowSizeLimits
+_glfwSetWindowTitle              _glfwSetWindowTitle
+_glfwSetWindowUserPointer        _glfwSetWindowUserPointer
+_glfwShowWindow                  _glfwShowWindow
+_glfwSwapBuffers                 _glfwSwapBuffers
+_glfwSwapInterval                _glfwSwapInterval
+_glfwTerminate                   _glfwTerminate
+_glfwUpdateGamepadMappings       _glfwUpdateGamepadMappings
+_glfwVulkanSupported             _glfwVulkanSupported
+_glfwWaitEvents                  _glfwWaitEvents
+_glfwWaitEventsTimeout           _glfwWaitEventsTimeout
+_glfwWindowHint                  _glfwWindowHint
+_glfwWindowHintString            _glfwWindowHintString
+_glfwWindowShouldClose           _glfwWindowShouldClose
+
+
+Publics by module
+_glfwCreateCursor
+	_glfwCreateCursor               
+
+_glfwCreateStandardCursor
+	_glfwCreateStandardCursor       
+
+_glfwCreateWindow
+	_glfwCreateWindow               
+
+_glfwCreateWindowSurface
+	_glfwCreateWindowSurface        
+
+_glfwDefaultWindowHints
+	_glfwDefaultWindowHints         
+
+_glfwDestroyCursor
+	_glfwDestroyCursor              
+
+_glfwDestroyWindow
+	_glfwDestroyWindow              
+
+_glfwExtensionSupported
+	_glfwExtensionSupported         
+
+_glfwFocusWindow
+	_glfwFocusWindow                
+
+_glfwGetClipboardString
+	_glfwGetClipboardString         
+
+_glfwGetCurrentContext
+	_glfwGetCurrentContext          
+
+_glfwGetCursorPos
+	_glfwGetCursorPos               
+
+_glfwGetEGLContext
+	_glfwGetEGLContext              
+
+_glfwGetEGLDisplay
+	_glfwGetEGLDisplay              
+
+_glfwGetEGLSurface
+	_glfwGetEGLSurface              
+
+_glfwGetError
+	_glfwGetError                   
+
+_glfwGetFramebufferSize
+	_glfwGetFramebufferSize         
+
+_glfwGetGamepadName
+	_glfwGetGamepadName             
+
+_glfwGetGamepadState
+	_glfwGetGamepadState            
+
+_glfwGetGammaRamp
+	_glfwGetGammaRamp               
+
+_glfwGetInputMode
+	_glfwGetInputMode               
+
+_glfwGetInstanceProcAddress
+	_glfwGetInstanceProcAddress     
+
+_glfwGetJoystickAxes
+	_glfwGetJoystickAxes            
+
+_glfwGetJoystickButtons
+	_glfwGetJoystickButtons         
+
+_glfwGetJoystickGUID
+	_glfwGetJoystickGUID            
+
+_glfwGetJoystickHats
+	_glfwGetJoystickHats            
+
+_glfwGetJoystickName
+	_glfwGetJoystickName            
+
+_glfwGetJoystickUserPointer
+	_glfwGetJoystickUserPointer     
+
+_glfwGetKey
+	_glfwGetKey                     
+
+_glfwGetKeyName
+	_glfwGetKeyName                 
+
+_glfwGetKeyScancode
+	_glfwGetKeyScancode             
+
+_glfwGetMonitorContentScale
+	_glfwGetMonitorContentScale     
+
+_glfwGetMonitorName
+	_glfwGetMonitorName             
+
+_glfwGetMonitorPhysicalSize
+	_glfwGetMonitorPhysicalSize     
+
+_glfwGetMonitorPos
+	_glfwGetMonitorPos              
+
+_glfwGetMonitors
+	_glfwGetMonitors                
+
+_glfwGetMonitorUserPointer
+	_glfwGetMonitorUserPointer      
+
+_glfwGetMonitorWorkarea
+	_glfwGetMonitorWorkarea         
+
+_glfwGetMouseButton
+	_glfwGetMouseButton             
+
+_glfwGetOSMesaColorBuffer
+	_glfwGetOSMesaColorBuffer       
+
+_glfwGetOSMesaContext
+	_glfwGetOSMesaContext           
+
+_glfwGetOSMesaDepthBuffer
+	_glfwGetOSMesaDepthBuffer       
+
+_glfwGetPhysicalDevicePresentationSupport
+	_glfwGetPhysicalDevicePresentationSupport
+
+_glfwGetPlatform
+	_glfwGetPlatform                
+
+_glfwGetPrimaryMonitor
+	_glfwGetPrimaryMonitor          
+
+_glfwGetProcAddress
+	_glfwGetProcAddress             
+
+_glfwGetRequiredInstanceExtensions
+	_glfwGetRequiredInstanceExtensions
+
+_glfwGetTime
+	_glfwGetTime                    
+
+_glfwGetTimerFrequency
+	_glfwGetTimerFrequency          
+
+_glfwGetTimerValue
+	_glfwGetTimerValue              
+
+_glfwGetVersion
+	_glfwGetVersion                 
+
+_glfwGetVersionString
+	_glfwGetVersionString           
+
+_glfwGetVideoMode
+	_glfwGetVideoMode               
+
+_glfwGetVideoModes
+	_glfwGetVideoModes              
+
+_glfwGetWGLContext
+	_glfwGetWGLContext              
+
+_glfwGetWin32Adapter
+	_glfwGetWin32Adapter            
+
+_glfwGetWin32Monitor
+	_glfwGetWin32Monitor            
+
+_glfwGetWin32Window
+	_glfwGetWin32Window             
+
+_glfwGetWindowAttrib
+	_glfwGetWindowAttrib            
+
+_glfwGetWindowContentScale
+	_glfwGetWindowContentScale      
+
+_glfwGetWindowFrameSize
+	_glfwGetWindowFrameSize         
+
+_glfwGetWindowMonitor
+	_glfwGetWindowMonitor           
+
+_glfwGetWindowOpacity
+	_glfwGetWindowOpacity           
+
+_glfwGetWindowPos
+	_glfwGetWindowPos               
+
+_glfwGetWindowSize
+	_glfwGetWindowSize              
+
+_glfwGetWindowTitle
+	_glfwGetWindowTitle             
+
+_glfwGetWindowUserPointer
+	_glfwGetWindowUserPointer       
+
+_glfwHideWindow
+	_glfwHideWindow                 
+
+_glfwIconifyWindow
+	_glfwIconifyWindow              
+
+_glfwInit
+	_glfwInit                       
+
+_glfwInitAllocator
+	_glfwInitAllocator              
+
+_glfwInitHint
+	_glfwInitHint                   
+
+_glfwInitVulkanLoader
+	_glfwInitVulkanLoader           
+
+_glfwJoystickIsGamepad
+	_glfwJoystickIsGamepad          
+
+_glfwJoystickPresent
+	_glfwJoystickPresent            
+
+_glfwMakeContextCurrent
+	_glfwMakeContextCurrent         
+
+_glfwMaximizeWindow
+	_glfwMaximizeWindow             
+
+_glfwPlatformSupported
+	_glfwPlatformSupported          
+
+_glfwPollEvents
+	_glfwPollEvents                 
+
+_glfwPostEmptyEvent
+	_glfwPostEmptyEvent             
+
+_glfwRawMouseMotionSupported
+	_glfwRawMouseMotionSupported    
+
+_glfwRequestWindowAttention
+	_glfwRequestWindowAttention     
+
+_glfwRestoreWindow
+	_glfwRestoreWindow              
+
+_glfwSetCharCallback
+	_glfwSetCharCallback            
+
+_glfwSetCharModsCallback
+	_glfwSetCharModsCallback        
+
+_glfwSetClipboardString
+	_glfwSetClipboardString         
+
+_glfwSetCursor
+	_glfwSetCursor                  
+
+_glfwSetCursorEnterCallback
+	_glfwSetCursorEnterCallback     
+
+_glfwSetCursorPos
+	_glfwSetCursorPos               
+
+_glfwSetCursorPosCallback
+	_glfwSetCursorPosCallback       
+
+_glfwSetDropCallback
+	_glfwSetDropCallback            
+
+_glfwSetErrorCallback
+	_glfwSetErrorCallback           
+
+_glfwSetFramebufferSizeCallback
+	_glfwSetFramebufferSizeCallback 
+
+_glfwSetGamma
+	_glfwSetGamma                   
+
+_glfwSetGammaRamp
+	_glfwSetGammaRamp               
+
+_glfwSetInputMode
+	_glfwSetInputMode               
+
+_glfwSetJoystickCallback
+	_glfwSetJoystickCallback        
+
+_glfwSetJoystickUserPointer
+	_glfwSetJoystickUserPointer     
+
+_glfwSetKeyCallback
+	_glfwSetKeyCallback             
+
+_glfwSetMonitorCallback
+	_glfwSetMonitorCallback         
+
+_glfwSetMonitorUserPointer
+	_glfwSetMonitorUserPointer      
+
+_glfwSetMouseButtonCallback
+	_glfwSetMouseButtonCallback     
+
+_glfwSetScrollCallback
+	_glfwSetScrollCallback          
+
+_glfwSetTime
+	_glfwSetTime                    
+
+_glfwSetWindowAspectRatio
+	_glfwSetWindowAspectRatio       
+
+_glfwSetWindowAttrib
+	_glfwSetWindowAttrib            
+
+_glfwSetWindowCloseCallback
+	_glfwSetWindowCloseCallback     
+
+_glfwSetWindowContentScaleCallback
+	_glfwSetWindowContentScaleCallback
+
+_glfwSetWindowFocusCallback
+	_glfwSetWindowFocusCallback     
+
+_glfwSetWindowIcon
+	_glfwSetWindowIcon              
+
+_glfwSetWindowIconifyCallback
+	_glfwSetWindowIconifyCallback   
+
+_glfwSetWindowMaximizeCallback
+	_glfwSetWindowMaximizeCallback  
+
+_glfwSetWindowMonitor
+	_glfwSetWindowMonitor           
+
+_glfwSetWindowOpacity
+	_glfwSetWindowOpacity           
+
+_glfwSetWindowPos
+	_glfwSetWindowPos               
+
+_glfwSetWindowPosCallback
+	_glfwSetWindowPosCallback       
+
+_glfwSetWindowRefreshCallback
+	_glfwSetWindowRefreshCallback   
+
+_glfwSetWindowShouldClose
+	_glfwSetWindowShouldClose       
+
+_glfwSetWindowSize
+	_glfwSetWindowSize              
+
+_glfwSetWindowSizeCallback
+	_glfwSetWindowSizeCallback      
+
+_glfwSetWindowSizeLimits
+	_glfwSetWindowSizeLimits        
+
+_glfwSetWindowTitle
+	_glfwSetWindowTitle             
+
+_glfwSetWindowUserPointer
+	_glfwSetWindowUserPointer       
+
+_glfwShowWindow
+	_glfwShowWindow                 
+
+_glfwSwapBuffers
+	_glfwSwapBuffers                
+
+_glfwSwapInterval
+	_glfwSwapInterval               
+
+_glfwTerminate
+	_glfwTerminate                  
+
+_glfwUpdateGamepadMappings
+	_glfwUpdateGamepadMappings      
+
+_glfwVulkanSupported
+	_glfwVulkanSupported            
+
+_glfwWaitEvents
+	_glfwWaitEvents                 
+
+_glfwWaitEventsTimeout
+	_glfwWaitEventsTimeout          
+
+_glfwWindowHint
+	_glfwWindowHint                 
+
+_glfwWindowHintString
+	_glfwWindowHintString           
+
+_glfwWindowShouldClose
+	_glfwWindowShouldClose          

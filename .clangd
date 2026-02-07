@@ -1,0 +1,19 @@
+Diagnostics:
+  Suppress: [
+    'invalid-token-paste',
+    'pp_file_not_found',
+    'invalid_string_udl',
+    'pp_hash_error',
+    'unused-includes',
+    'unknown_typename',
+    'invalid_token_after_toplevel_declarator',
+    'expected_either'
+  ]
+
+# Diagnostics:
+#   Suppress: ['*']
+
+# If:
+#   PathMatch: C:/tools/dm/stlport/stlport/.*
+# Diagnostics:
+#   Suppress: "*" # This suppresses all diagnostics for files matching the path
