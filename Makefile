@@ -1,6 +1,6 @@
 CC = dmc
 CCFLAGS = -v1 -Ae
-INCLUDE = -IC:\\tools\\dm\\stlport\\stlport -I.\\include
+INCLUDE = -IC:\\tools\\dm\\stlport\\stlport -IC:\\tools\\dm\\include -I.\\include
 LIBS = .\\lib\\glfw3.lib winmm.lib wsock32.lib ws2_32.lib
 
 # SRC = unsigned
