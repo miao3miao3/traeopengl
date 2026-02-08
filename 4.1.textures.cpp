@@ -6,7 +6,7 @@
 #include <stb_image.h>
 
 #include <filesystem.h>
-#include "shader_s.h"
+#include <shader_s.h>
 
 #include <iostream>
 
